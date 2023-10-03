@@ -1,0 +1,114 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner
+{
+    background-image: url(images/shoto.jpg);
+    height: 200px;
+    position: relative;
+}
+
+.lnavbar
+{
+    margin: 3px;
+    padding: 3px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: maroon;
+    text-align: left;
+}
+
+#llinks
+{
+    background-color: rgb(45, 38, 38);
+    border: 2px dashed black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#llinks:hover
+{
+    background-color: maroon;
+}
+
+#llinks a
+{
+    color: rgb(171, 75, 75);
+    font-size: large;
+    text-decoration: wavy;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.rnavbar
+{
+    margin: 3px;
+    padding: 3px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: maroon;
+    text-align: left;
+}
+
+#rlinks
+{
+    background-color: rgb(45, 38, 38);
+    border: 2px dashed black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#rlinks:hover
+{
+    background-color: maroon;
+}
+
+#rlinks a
+{
+    color: rgb(171, 75, 75);
+    font-size: large;
+    text-decoration: wavy;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.body
+{
+    margin: 5px;
+    padding: 5px;
+    background-color: maroon;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: absolute;
+    left: 50vh;
+    right: 50vh;
+}
+
+.body a
+{
+    text-decoration: wavy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#limage
+{
+    margin: 15px;
+    border: 2px solid black;
+    float: left;
+}
+
+#rimage
+{
+    margin: 15px;
+    border: 2px solid black;
+    float: right;
+}
